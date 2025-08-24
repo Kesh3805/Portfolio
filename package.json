@@ -7,7 +7,7 @@
     "start": "node server.js",
     "dev": "nodemon server.js",
     "client": "live-server --port=3000 --entry-file=index.html",
-    "build": "echo 'Build complete'"
+    "build": "mkdir -p public && cp -r *.html *.css *.js assets/ public/"
   },
   "keywords": ["portfolio", "fullstack", "nodejs", "express", "mongodb"],
   "author": "Keshav A M",
